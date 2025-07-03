@@ -2,4 +2,6 @@ git init
 git add .
 git commit -m "-----"
 git config --global user.email "-----------"
-git git log --oneline
+git log --oneline
+git remote add alias RemoteRepositoryURL
+git push origin master
